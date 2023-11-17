@@ -1,4 +1,5 @@
 <?php
+//Se muestra los elementos en el stock
 include 'global/config.php';
 include 'global/conexion.php';
 include 'carrito.php';
@@ -71,7 +72,7 @@ include 'templates/cabecera.php';
                                 Cantidad Actual: (Incrementar o decrementar para actualizar)
                                 
                             </div>
-     
+
                             <input  type="number" min="1" max="100"   name="nCantidad" id="nCantidad" value="<?php echo $cant;?>">
                            
                             <button class="btn btn-primary"
