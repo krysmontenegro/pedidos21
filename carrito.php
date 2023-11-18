@@ -132,7 +132,7 @@ if (isset($_POST['btnAccion'])) {
                 //echo "<script>alert('.$sql');</script>";  
                 $sentencia=$pdo->prepare($sql);
                 $sentencia->execute();
-                
+                echo "<script>alert('Actualización exitosa del stock del producto seleccionado.');</script>";
                 
                 
                 
